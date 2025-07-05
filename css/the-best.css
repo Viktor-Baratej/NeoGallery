@@ -106,10 +106,18 @@ margin-bottom: 36px;
     width: 456px;
 height: 50px;
 background: rgba(196, 196, 196, 0.1);
-border: none;
+border: 1px solid transparent;
 color: white;
 font-size: 20px;
+}
 
+.the-best-input:focus {
+  outline: none;
+border: 1px solid #4d4d52;
+box-shadow: 0 0 0 2px rgba(77, 77, 82, 0.5);
+}
+.the-best-input::placeholder {
+padding-left: 5px;
 }
 
 .the-best-btn {
