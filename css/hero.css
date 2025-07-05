@@ -12,6 +12,8 @@ max-width: 658px;
 width: 100%;
 margin-bottom: 22px;
 }
+
+
 .hero-text {
     
 font-weight: 400;
@@ -44,11 +46,14 @@ letter-spacing: 0.03em;
     align-items: center;
     width: 44px;
     height: 44px;
-
     cursor: pointer;
     border: none;
+    transition: transform 0.9s ease-in-out;
 }
 .hero-btn-svg {
-
     fill: #D500B3;
+}
+
+.hero-brn:hover {
+  transform: rotate(360deg) scale(1.5);
 }

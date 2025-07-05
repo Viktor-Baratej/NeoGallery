@@ -7,4 +7,23 @@
      flex-wrap: wrap;
      justify-content: space-between;
      gap: 40px;
+  
 }
+
+
+.gallery-content img {
+     transition: transform 0.9s ease;
+}
+.gallery-content img:hover {
+  transform: scale(1.2) rotate(15deg);
+}
+
+.gallery-content a:nth-child(3) img {
+  margin-right: 39px;
+}
+
+.gallery-content a:nth-child(4) img {
+  margin-left: 39px;
+}
+
+
